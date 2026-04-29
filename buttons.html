@@ -6,6 +6,15 @@
     height: 35px;
     width: 120px;
     margin: 10px;
+    transition: opacity 0.15s;
+   }
+
+   .subscribe:hover{
+    opacity: 0.8;
+   }
+
+   .subscribe:active{
+    opacity: 0.4;
    }
 
    .join{
@@ -19,6 +28,16 @@
     border-radius: 2px;
     cursor: pointer;
     margin: 10px;
+    transition: background-color 1s, color 1s;
+   }
+
+   .join:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+   }
+
+   .join:active{
+    opacity: 0.6;
    }
 
     .tweet{
@@ -31,6 +50,11 @@
         font-weight: bold;
         font-size: 15px;
         cursor: pointer;
+        transition: box-shadow 1s;
+    }
+
+    .tweet:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     }
 
     .uber{
@@ -50,8 +74,40 @@
         font-size; 25px;
         margin: 10px;
         font-weight: bold;
+    }
 
-        
+    .github{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        height: 40px;
+        width: 90px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    .bootstrap{
+        background-color: rgb(121, 82, 179);
+        color: white;
+        height: 40px;
+        width: 105px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .linkedin{
+        background-color: rgb(10, 102, 194);
+        color: white;
+        height: 40px;
+        width: 200px;
+        border-radius: 18px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+        margin: 10px;
     }
 
 </style>
